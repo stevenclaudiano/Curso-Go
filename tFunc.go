@@ -8,12 +8,12 @@ func main() {
 	comando1 := ledados()
 
 	switch comando1 {
-	case "STEVEN":
-		fmt.Println("Feraaaaaa")
-	case "EDUARDO":
-		fmt.Println("Feraaaaaaaaaaaaaa")
-	case "MARCOS":
-		fmt.Println("AAAAAAAAAAAAAAAAAAAAAAAAAA")
+	case "TESTE1":
+		fmt.Println("AAAAAAAAAAAAAAA")
+	case "TESTE2":
+		fmt.Println("BBBBBBBBBBBBBBBBBBB")
+	case "TESTE3":
+		fmt.Println("CCCCCCCCCCCCCCCCCCCCCCCC")
 	}
 
 }
