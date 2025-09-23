@@ -17,7 +17,17 @@ func main() {
 
 	fmt.Scan(&comando)
 
-	fmt.Println("O endereco da minha variavel comando é:", &comando)
 	fmt.Println("O comando escolhido foi:", comando)
+
+	switch comando {
+	case 1:
+		fmt.Println("Monitoramento...")
+	case 2:
+		fmt.Println("Exibindo Logs...")
+	case 0:
+		fmt.Println("Saindo do programa")
+	default:
+		fmt.Println("Não conheço este comando")
+	}
 
 }
