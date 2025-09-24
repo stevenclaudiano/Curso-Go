@@ -8,7 +8,6 @@ import (
 	"os"
 	"strings"
 	"time"
-	"strconv"
 )
 
 const monitoramento = 3
@@ -18,7 +17,7 @@ func main() {
 	exibIntroducao()
 
 	registralog("site-falso", false)
-	
+
 	for {
 
 		exibMenu()
@@ -139,4 +138,6 @@ func registralog(site string, status bool) {
 		fmt.Println(err)
 	}
 
-	arquivo.WriteString(site+ " - online: "+fmt.Sprint(status)+"\n")
+	arquivo.WriteString(site + " - online: " + fmt.Sprint(status) + "\n")
+
+}
