@@ -1,9 +1,9 @@
-https://www.google.com/search?q=google.com
+https://www.google.com
 
-www.youtube.com.br
+https://www.youtube.com.br
 
-www.facebook.com.br
+https://www.facebook.com.br
 
-www.instagram.com.br
+https://www.instagram.com.br
 
-wwww.chatgpt.com.br
+https://wwww.chatgpt.com.br
