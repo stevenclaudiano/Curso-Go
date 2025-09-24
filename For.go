@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
+
+	//exibeNomes()
 	exibIntroducao()
 	for {
 
@@ -64,6 +66,14 @@ func lecomando() int {
 
 func iniciarMonitoamento() {
 	fmt.Println("Monitoramento...")
+	sites := []string{"https://www.alura.com.br/", "https://www.google.com/", "https://www.youtube.com/", "https://github.com/"}
+
+	//fmt.Println(sites)
+
+	for i, site := range sites { // A posição e quem esta naquela posição
+		fmt.Println("Estou passando na posição ", i, "o meu slice e essa posição tem o site", site)
+	}
+
 	site := "https://www.alura.com.br/"
 	resp, _ := http.Get(site)
 	//fmt.Println(resp)
@@ -74,3 +84,26 @@ func iniciarMonitoamento() {
 		fmt.Println("SITE NÃO CARREGADO", site, "E", resp.StatusCode)
 	}
 }
+
+/*func iniciarMonitoamento() {
+	fmt.Println("Monitoramento...")
+	sites := []string{"https://www.alura.com.br/", "https://www.google.com/", "https://www.youtube.com/", "https://github.com/"}
+
+	fmt.Println(sites)
+
+	for i := 0; i < len(sites); i++ {
+		fmt.Println(sites[i])
+	}
+
+	site := "https://www.alura.com.br/"
+	resp, _ := http.Get(site)
+	//fmt.Println(resp)
+
+	if resp.StatusCode == 200 {
+		fmt.Println("CARREGAMENTO CONCLUIDO!!", site)
+	} else {
+		fmt.Println("SITE NÃO CARREGADO", site, "E", resp.StatusCode)
+	}
+}
+
+*/

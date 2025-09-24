@@ -4,13 +4,22 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"reflect"
 )
 
 func main() {
-	exibIntroducao()
+	var sites [4]string
+	sites[0] = "https://www.alura.com.br/"
+	sites[1] = "https://www.google.com/"
+	sites[2] = "https://www.youtube.com/"
+	sites[3] = "https://github.com/"
+	fmt.Println(reflect.TypeOf(sites))
+	fmt.Println(sites)
+	exibeNomes()
+	//exibIntroducao()
 	for {
 
-		exibMenu()
+		//exibMenu()
 		comando := lecomando()
 
 		switch comando {
@@ -73,4 +82,14 @@ func iniciarMonitoamento() {
 	} else {
 		fmt.Println("SITE NÃO CARREGADO", site, "E", resp.StatusCode)
 	}
+}
+
+func exibeNomes() { // EXIBE NOMES
+	nomes := []string{"Douglas", "Daniel", "Bernardo"}
+	fmt.Println("O meu slice tem", len(nomes), "itens")
+	fmt.Println("O meu slice tem capacidade para", cap(nomes), "itens")
+
+	nomes = append(nomes, "Aparecida")
+	fmt.Println("O meu slice tem", len(nomes), "itens")
+	fmt.Println("O meu slice tem capacidade para", cap(nomes), "itens")
 }
