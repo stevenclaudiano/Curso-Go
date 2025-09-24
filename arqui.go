@@ -21,7 +21,7 @@ func main() {
 
 		switch comando {
 		case 1:
-			iniciarMonitoramento()
+			iniciarMonitoamento()
 		case 2:
 			fmt.Println("Exibindo Logs...")
 		case 0:
