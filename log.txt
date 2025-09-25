@@ -1,15 +1,10 @@
-https://www.google.com - online: true
-https://www.youtube.com.br - online: true
-https://www.facebook.com.br - online: true
-https://www.instagram.com.br - online: true
-https://wwww.chatgpt.com.br - online: false
-https://www.google.com - online: true
-https://www.youtube.com.br - online: true
-https://www.facebook.com.br - online: true
-https://www.instagram.com.br - online: true
-https://wwww.chatgpt.com.br - online: false
-https://www.google.com - online: true
-https://www.youtube.com.br - online: true
-https://www.facebook.com.br - online: true
-https://www.instagram.com.br - online: true
-https://wwww.chatgpt.com.br - online: false
+25/09/2025 11:17:34 - https://www.google.com - online: true
+25/09/2025 11:17:35 - https://www.youtube.com.br - online: true
+25/09/2025 11:17:35 - https://www.facebook.com.br - online: true
+25/09/2025 11:17:35 - https://www.instagram.com.br - online: true
+25/09/2025 11:17:36 - https://wwww.chatgpt.com.br - online: false
+25/09/2025 11:17:41 - https://www.google.com - online: true
+25/09/2025 11:17:41 - https://www.youtube.com.br - online: true
+25/09/2025 11:17:42 - https://www.facebook.com.br - online: true
+25/09/2025 11:17:42 - https://www.instagram.com.br - online: true
+25/09/2025 11:17:42 - https://wwww.chatgpt.com.br - online: false
